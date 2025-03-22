@@ -26,8 +26,8 @@
 
 ### 🔹 Clone Repository
 ```bash
-$ git clone https://github.com/Y4BN/Mass-Email-Sender.git
-$ cd Mass-Email-Sender
+$ git clone https://github.com/yabuna/Advanced-Bulk-Email-Sender-by-Y4BN
+$ cd Advanced-Bulk-Email-Sender-by-Y4BN
 ```
 
 ### 🔹 Install Dependencies
