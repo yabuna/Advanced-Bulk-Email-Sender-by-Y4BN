@@ -100,7 +100,7 @@ The tool processes emails **with a progress bar** and sends real-time **Telegram
 
 ## 🎨 Screenshots
 
-![Tool Interface](Images/panel.jpg)
+![Tool Interface](Images/panell.jpg)
 ![Tool Login](Images/login.jpg)
 ![Tool Output](Images/output.jpg)
 
@@ -132,5 +132,5 @@ This tool is for **ethical hacking and educational purposes only**. Unauthorized
 **GitHub:** [github.com/Y4BN](https://github.com/yabuna)  
 **License:** MIT  
 
-![Thank You](https://via.placeholder.com/600x200?text=Thank+You+for+Using+Mass+Email+Sender!)
+
 
