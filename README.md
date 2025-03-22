@@ -127,7 +127,7 @@ This tool is for **ethical hacking and educational purposes only**. Unauthorized
 
 ## 💙 Credits
 **Developed by:** Y4BN  
-**GitHub:** [github.com/Y4BN](https://github.com/Y4BN)  
+**GitHub:** [github.com/Y4BN](https://github.com/yabuna)  
 **License:** MIT  
 
 ![Thank You](https://via.placeholder.com/600x200?text=Thank+You+for+Using+Mass+Email+Sender!)
