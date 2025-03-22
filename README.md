@@ -100,9 +100,9 @@ The tool processes emails **with a progress bar** and sends real-time **Telegram
 
 ## 🎨 Screenshots
 
-![Tool Interface](images/panel.jpg)
-![Tool Login](images/login.jpg)
-![Tool Output](images/output.jpg)
+![Tool Interface](Images/panel.jpg)
+![Tool Login](Images/login.jpg)
+![Tool Output](Images/output.jpg)
 
 ---
 
