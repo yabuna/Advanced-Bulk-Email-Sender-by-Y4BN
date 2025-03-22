@@ -1,98 +1,57 @@
-📧 Advanced Bulk Email Sender by Y4BN
+# Bulk Email Sender
 
-🚀 Description
-A cool as fuck bulk email sender with multiple SMTP configurations, email validation, Telegram notifications, and a professional modern interface. Designed for high efficiency and reliability.
+![Bulk Email Sender](https://via.placeholder.com/800x400?text=Bulk+Email+Sender)
 
-⚙️ Features
-Multi-SMTP Support – Add multiple SMTP servers in config.json, but the system will use only one randomly.
+## 🚀 About This Project
+This **Bulk Email Sender** is a powerful tool designed by **Y4BN** for sending bulk emails efficiently using multiple SMTP servers. It also provides real-time Telegram notifications for better tracking.
 
-Telegram Notifications – Get real-time updates on email status.
+## 📌 Features
+- **Bulk Email Sending** with SMTP support
+- **Real-time Telegram Notifications** for email status updates
+- **Secure & Fast** delivery process
+- **Easy to Use** with a simple UI
+- **Open-Source & Customizable**
 
-Customizable Email Templates – Predefined templates for phishing awareness campaigns.
+## 🛠️ Installation & Usage
 
-Email Validation – Filters out invalid email addresses.
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/Y4BN/BulkEmailSender.git
+cd BulkEmailSender
+```
 
-Modern UI – Uses rich and colorama for a stylish command-line interface.
+### 2️⃣ Open `index.html`
+Simply open the `index.html` file in your web browser to access the interface.
 
-Automated Configuration – First-time setup prompts you for credentials and saves them.
+### 3️⃣ Hosting on GitHub Pages
+To host the project online using **GitHub Pages**:
+1. **Go to Repository Settings**
+2. **Scroll to "GitHub Pages"**
+3. **Set Source to `main` branch**
+4. **Save and Deploy**
 
-🛠️ Installation
-1️⃣ Clone the Repository
-bash
-Copy
-Edit
-git clone https://github.com/Y4BN/Bulk-Email-Sender.git
-cd Bulk-Email-Sender
-2️⃣ Install Dependencies
-Ensure you have Python 3.8+ installed. Then, run:
+Your site will be live at:
+```
+https://your-username.github.io/BulkEmailSender
+```
 
-bash
-Copy
-Edit
-pip install -r requirements.txt
-3️⃣ Configure SMTP & Telegram
-Run the script once to set up the config.json:
+## 📂 File Structure
+```
+BulkEmailSender/
+│── index.html   # Main UI (HTML, CSS, JavaScript combined)
+│── README.md    # Documentation
+```
 
-bash
-Copy
-Edit
-python main.py
-It will ask for:
+## 🔗 Useful Links
+- [GitHub Repository](https://github.com/Y4BN/BulkEmailSender)
+- [Contact on Telegram](https://t.me/Y4BN)
 
-Telegram Bot Token
+## ✨ Contributing
+Feel free to fork this project, improve it, and create a pull request!
 
-Telegram Chat ID
+## 📜 License
+This project is licensed under the **MIT License**.
 
-SMTP Server, Port, Email & Password
+---
+🚀 **Developed by Y4BN** | Stay Anonymous, Stay Safe.
 
-📌 Usage
-1️⃣ Add Emails to emails.txt
-Put target emails in emails.txt, one per line.
-
-2️⃣ Run the Script
-bash
-Copy
-Edit
-python main.py
-3️⃣ Select an Email Template
-Choose from predefined phishing awareness emails.
-
-4️⃣ Enter the Phishing Awareness Link
-Provide a URL (e.g., a security training page).
-
-5️⃣ Start Sending
-The script will:
-
-Validate emails
-
-Select a random SMTP server from config.json
-
-Send emails
-
-Notify you via Telegram
-
-🔄 Config File (config.json)
-json
-Copy
-Edit
-{
-    "TELEGRAM_BOT_TOKEN": "your_bot_token",
-    "TELEGRAM_CHAT_ID": "your_chat_id",
-    "SMTP_SERVERS": [
-        {
-            "server": "smtp.gmail.com",
-            "port": 587,
-            "email": "youremail@gmail.com",
-            "password": "yourpassword"
-        }
-    ]
-}
-🛑 Disclaimer
-This tool is meant for ethical and educational purposes ONLY.
-Do not use it for illegal activities.
-
-📜 License
-This project is open-source under the MIT License.
-
-🚀 Developed by Y4BN
-🔥 Making Python projects cool as fuck! 🔥
