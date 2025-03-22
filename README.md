@@ -1,6 +1,6 @@
 # 📧 Mass Email Sender - Y4BN Edition
 
-![Mass Email Sender](https://via.placeholder.com/1000x300?text=Mass+Email+Sender+by+Y4BN)
+![Mass Email Sender](images/logo.jpg)
 
 > A **highly customizable** bulk email sender with Telegram notifications and multi-SMTP support. Developed by **Y4BN**. 🚀
 
@@ -100,7 +100,9 @@ The tool processes emails **with a progress bar** and sends real-time **Telegram
 
 ## 🎨 Screenshots
 
-![Tool Interface](https://via.placeholder.com/800x400?text=CLI+Interface+Example)
+![Tool Interface](images/panel.jpg)
+![Tool Login](images/login.jpg)
+![Tool Output](images/output.jpg)
 
 ---
 
