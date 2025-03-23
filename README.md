@@ -147,6 +147,10 @@ You can manually edit `config.json` as follows:
 
 ![Tool Output](Images/output.jpg)
 
+![Exe Login](Images/smpt.jpg)
+
+![Exe interface](Images/exe.jpg)
+
 ---
 
 ## 🛠️ Troubleshooting
