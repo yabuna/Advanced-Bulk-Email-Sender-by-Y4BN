@@ -1,3 +1,7 @@
+Here’s an updated version of your README file with the detailed explanation on how to run the `.exe` file:
+
+---
+
 # 📧 Mass Email Sender - Y4BN Edition
 
 ![Mass Email Sender](Images/logo.jpg)
@@ -59,42 +63,79 @@ You can manually edit `config.json` as follows:
 
 ---
 
-## 🚀 Running the Tool
+## 🚀 Running the `.exe` File
 
-### 🔹 Start the Email Sending Process
-```bash
-$ python mass2.py
-```
+1. **Double-Click the `.exe` File**:  
+   - Navigate to the `dist` folder, where you’ll find the `BulkEmailSender.exe` file.
+   - Simply double-click on the `.exe` file to launch the tool.
 
-### 🔹 Select an Email Template
-You will be prompted to choose an email type from pre-defined phishing templates:
-```
-📜 Choose the type of email to send:
-[1] 🔵 Student Verification
-[2] 🔒 Account Security Alert
-[3] 📊 University Survey Invitation
-```
+2. **Initial Configuration (First Run)**:
+   - The first time you run the tool, you will be prompted to enter your **SMTP and Telegram details**.
+   - A window will open, requesting the following inputs:
 
-### 🔹 Provide a Target Link
-Enter the phishing link to be included in the email:
-```
-🔗 Enter the phishing link: https://example.com/login
-```
+### ⚙️ Configuration Prompts
 
-### 🔹 Sending Progress
-The tool processes emails **with a progress bar** and sends real-time **Telegram notifications**.
-```
-📩 Processing emails...
-✅ Email sent to victim@example.com (Admin Support)
-❌ Failed to send email to user2@example.com
-```
+- **Enter SMTP Server Details**:
+   - SMTP Server: This is the email server you’ll use for sending emails (e.g., `smtp.gmail.com`).
+   - SMTP Port: This is the port number used by your SMTP provider (usually `587` for TLS).
+   - Email Address: The email address you’ll send the emails from.
+   - SMTP Password: The password for the email address you're using.
+
+   Example:
+   ```
+   SMTP Server: smtp.example.com
+   SMTP Port: 587
+   Email Address: your-email@example.com
+   SMTP Password: your-password
+   ```
+
+- **Enter Telegram Bot Details**:
+   - **Bot Token**: The token you got when creating your Telegram bot.
+   - **Chat ID**: Your chat ID where notifications will be sent (can be obtained via Telegram Bot API or using a simple bot command).
 
 ---
 
-## 📊 Performance & Optimization
-- **Multi-threading** for faster delivery.
-- **Randomized delays** between emails to avoid detection.
-- **Dynamic SMTP selection** to prevent blacklisting.
+## 🚀 Running the Tool
+
+1. **Choose an Email Template**:  
+   Once your configuration is set, you'll be prompted to choose an email template to send. Here’s what it looks like:
+   ```
+   📜 Choose the type of email to send:
+   [1] 🔵 Student Verification
+   [2] 🔒 Account Security Alert
+   [3] 📊 University Survey Invitation
+   ```
+
+   - Type the number corresponding to the template you want to use and press **Enter**.
+
+2. **Enter the Phishing Link**:  
+   After selecting the email template, you will be asked to provide the **phishing link** that will be included in the email body.
+   ```
+   🔗 Enter the phishing link: https://example.com/login
+   ```
+
+   - Type in the desired URL and press **Enter**.
+
+---
+
+### 💬 Sending Process
+
+- Once the emails start processing, you'll see a real-time progress update in the terminal:
+   ```
+   📩 Processing emails...
+   ✅ Email sent to victim@example.com (Admin Support)
+   ❌ Failed to send email to user2@example.com
+   ```
+
+   Additionally, you'll receive **Telegram notifications** about the email delivery status.
+
+---
+
+## 📊 Performance Features
+
+- The tool uses **multi-threading** for faster delivery.
+- SMTP servers are **randomly selected** to prevent detection.
+- **Randomized delays** between emails to reduce the risk of being flagged.
 
 ---
 
@@ -131,8 +172,5 @@ This tool is for **ethical hacking and educational purposes only**. Unauthorized
 
 ## 💙 Credits
 **Developed by:** Y4BN  
-**GitHub:** [github.com/Y4BN](https://github.com/yabuna)  
+**GitHub:** [github.com/yabuna](https://github.com/yabuna)  
 **License:** MIT  
-
-
-
