@@ -1,6 +1,4 @@
-Here’s an updated version of your README file with the detailed explanation on how to run the `.exe` file:
 
----
 
 # 📧 Mass Email Sender - Y4BN Edition
 
